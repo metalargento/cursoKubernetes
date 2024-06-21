@@ -1,11 +1,11 @@
 apiVersion: v1
 kind:
 metadata:
-  name:  app1-clusteriptest
+  name: app1-clusteriptest
 spec:
   type: ClusterIP
   ports:
   - targetPort: 80
     port:  80
   selector:
-    app: app
+    app: app1
