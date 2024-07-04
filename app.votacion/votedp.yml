@@ -6,7 +6,7 @@ metadata:
     app: app-votacion
 spec:
   replicas: 1
-  selector
+  selector:
     matchLabels:
       name: vote
       app: app-votacion
@@ -16,7 +16,7 @@ spec:
       labels:
         name: vote
         app: app-votacion
-    spec
+    spec:
       containers:
       - name: vote
         image: dockersamples/examplevotingapp_vote

@@ -11,6 +11,6 @@ spec:
   - port: 5432
     targetPort: 5432
     name: "db-service"
-  selector
+  selector:
     name: db
     app: app-votacion
